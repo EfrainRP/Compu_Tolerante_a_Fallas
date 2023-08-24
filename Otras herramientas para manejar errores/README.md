@@ -1,7 +1,7 @@
-# Otras herramientas para el manejar errores 
+<h1 align="center">Otras herramientas para el manejar errores</h1> 
 ## CARRERA: Ingeniería en Computación 
-## NOMBRE: Efrain Robles Pulido
-## CÓDIGO: 221350095
+<h2 align="center">NOMBRE: Efrain Robles Pulido</h2>
+<h2 align="center"> CÓDIGO: 221350095</h2>
 ## MATERIA: Computación Tolerante a Fallas
 ## MAESTRO: Michel Emanuel Lopez Franco
 ## SECCIÓN: D06 		CALENDARIO: 2023B
