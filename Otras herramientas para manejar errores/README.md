@@ -7,4 +7,4 @@
 ## SECCIÓN: D06 		CALENDARIO: 2023B
 ## UNIVERSIDAD DE GUADALAJARA
 
-![CUCEI](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.genomicandbiolab.com%2Flabiogen-cont&psig=AOvVaw37CFFlJ8u7904Xywc21huT&ust=1692987612532000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDSlrz09YADFQAAAAAdAAAAABAE)
+![CUCEI](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
