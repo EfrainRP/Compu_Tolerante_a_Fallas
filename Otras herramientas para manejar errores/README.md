@@ -1,4 +1,4 @@
-# Herramientas para el manejar errores
+# Otras herramientas para el manejar errores
 
 CARRERA: **Ingeniería en Computación**
 
