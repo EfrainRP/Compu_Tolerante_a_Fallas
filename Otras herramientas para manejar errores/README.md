@@ -12,8 +12,7 @@ SECCIÓN: **D06**    CALENDARIO: **2023B**
 
 **UNIVERSIDAD DE GUADALAJARA**
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset=https://eventos.cucei.udg.mx/dist/images/landing/cucei-logo.png></picture>
+![CUCEI Logo](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
 
 En el proceso de creación de aplicaciones, sistemas y programas, es inevitable que ocurran situaciones inesperadas que puedan interrumpir el flujo normal de ejecución. Estas situaciones, son conocidas como errores o excepciones, que se originan por diversos motivos, como datos incorrectos, condiciones imprevistas o problemas en el entorno de ejecución.
 
