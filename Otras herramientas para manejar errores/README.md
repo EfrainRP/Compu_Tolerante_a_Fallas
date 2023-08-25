@@ -75,17 +75,17 @@ Nos pueden entrar dudas de cuando emplear un assert y cuando un if o una excepci
 
 ## Try Exception
 
-La sentencia try en PYTHON funciona de la siguiente manera: 
+La sentencia try en python funciona de la siguiente manera:
 
-- Primero, se ejecuta la cláusula try (la(s) linea(s) entre las palabras reservadas try y la except).
+- Primero, se ejecuta la cláusula **try** (la(s) linea(s) entre las palabras reservadas try y la except).
 
-- Si no ocurre ninguna excepción, la cláusula except se omite y la ejecución de la cláusula try finaliza.
+- Si no ocurre ninguna excepción, la cláusula *except* se omite y la ejecución de la cláusula try finaliza.
 
 - Si ocurre una excepción durante la ejecución de la cláusula try, se omite el resto de la cláusula. Luego, si su tipo coincide con la excepción nombrada después de la palabra clave except, se ejecuta la cláusula except, y luego la ejecución continúa después del bloque try/except.
 
 - Si ocurre una excepción que no coincide con la indicada en la cláusula except se pasa a los try más externos; si no se encuentra un gestor, se genera una unhandled exception (excepción no gestionada) y la ejecución se interrumpe con un mensaje como el que se muestra arriba.
 
-Con la cláusula *except*, podemos especificar diferentes excepciones a atrapar, asi como tener múltiples excepciones como:
+Con la cláusula **except**, podemos especificar diferentes excepciones a atrapar, asi como tener múltiples excepciones como:
 
 ```python
 try:
@@ -95,11 +95,11 @@ try:
         print("Oops!  That was no valid number.  Try again...")
 ```
 
-Si no sabemos que excepción hay que saltar, podemos utiliza la clausula *Exception*, que controla cualquier tipo de excepcion.
+Si no sabemos que excepción hay que saltar, podemos utiliza la clausula **Exception**, que controla cualquier tipo de excepcion.
 
-Ademas podemos utilizar el bloque de *else*, que va despues de *try* y *except*, para ejecutar si no ha ocurrido ninguna excepción.
+Ademas podemos utilizar el bloque de **else**, que va despues de *try* y *except*, para ejecutar si no ha ocurrido ninguna excepción.
 
-Además de los bloques de *try, except* y *else* se puede añadir el bloque *finally*. En donde se ejecutar **siempre**, sin importar si hubo una excepcion. Utilizado normalmente como accion de limpieza.
+Además de los bloques de *try, except* y *else* se puede añadir el bloque **finally**. En donde se ejecutar **siempre**, sin importar si hubo una excepcion. Utilizado normalmente como accion de limpieza.
 
 ```python
 try:
