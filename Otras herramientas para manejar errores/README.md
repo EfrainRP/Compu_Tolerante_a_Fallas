@@ -40,7 +40,7 @@ Los depuradores son herramientas integradas en muchos entornos de desarrollo que
 Los Assertions (afirmaciones) son aquellas booleanas colocadas en punto específico de un programa, las cuales serán verdaderas hasta que se demuestre lo contrario.
 Este tipo de sentencias se utlizan como ayuda en las correciones de un programa. Si la expresión contenida dentro del mismo es **False**, se lanzará una *excepción*, concretamente ***AssertionError***.
 
-Los **asserts** pueden llevar () como funcion: 
+Los **asserts** pueden llevar ( ) como funcion: 
 ```python 
 assert(1==2) # AssertionError
 ```
@@ -83,7 +83,7 @@ print("Resultado:", result)
 
 Y no deben usarse para:
 
-- No se deben usar para comprobar argumentos en métodos públicos: los asserts pueden habilitarse o deshabilitarse, comprobar los argumentos se considera parte de las responsabilidades del método y su especificación.
+- No se deben usar para comprobar argumentos en métodos públicos: ***los asserts pueden habilitarse o deshabilitarse***, comprobar los argumentos se considera parte de las responsabilidades del método y su especificación.
 
 - No se deben usar para realizar tareas: ya que los asserts pueden deshabilitarse las tareas dejarían de ejecutarse y de proporcionar la funcionalidad del programa.
 
@@ -91,13 +91,13 @@ Nos pueden entrar dudas de cuando emplear un assert y cuando un if o una excepci
 
 ## Try Exception
 
-Las excepciones en Python son una herramienta muy potente que la gran mayoría de lenguajes de programación modernos tienen. Se trata de una ***forma de controlar el comportamiento de un programa cuando se produce un error***. Esto es muy importante ya que salvo que tratemos este error, **el programa se parará**, y esto es algo que en determinadas aplicaciones no es una opción válida. La sentencia try en python funciona de la siguiente manera:
+Es una herramienta muy potente que la gran mayoría de lenguajes de programación modernos tienen. Se trata de una ***forma de controlar el comportamiento de un programa cuando se produce un error***. Esto es muy importante ya que salvo que tratemos este error, **el programa se parará**, y esto es algo que en determinadas aplicaciones no es una opción válida. La sentencia try en python funciona de la siguiente manera:
 
 - Primero, se ejecuta la cláusula **try** (la(s) linea(s) entre las palabras reservadas try y la except).
 
 - Si no ocurre ninguna excepción, la cláusula ***except*** se omite y la ejecución de la cláusula try finaliza.
 
-- Si ocurre una excepción durante la ejecución de la cláusula try, se omite el resto de la cláusula. Luego, si su tipo coincide con la excepción nombrada después de la palabra clave except, se ejecuta la cláusula except, y luego la ejecución continúa después del bloque try/except.
+- Si ocurre una excepción durante la ejecución de la cláusula try, se omite el resto de la cláusula. Luego, si su tipo coincide con la excepción nombrada después de la palabra clave ***except***, se ejecuta la cláusula except, y luego la ejecución continúa después del bloque try/except.
 
 - Si ocurre una excepción que no coincide con la indicada en la cláusula except se pasa a los try más externos; si no se encuentra un gestor, se genera una unhandled exception (excepción no gestionada) y la ejecución se interrumpe con un mensaje como el que se muestra arriba.
 
@@ -132,6 +132,7 @@ else:
 finally:
 # Este bloque se ejecutara siempre
 ```
+
 # Conclusion
 
 Esta investigacion me ayudo a como manejar errores que pudiera encontrar en la programacion asi como los que produzcan los mismos usuarios, por lo que debemos de siempre conocer los errores que se pudieran presentar, además de conocer el contexto para manejar de la mejor forma el error para identificar la tecnica o herramienta a utilizar para evitar que falle el sistema o programa. Ya que no siempre podremos probar el programa a pruba y error para identifiacr lo problemas que se presenten por lo que esta investigacion em ayugo a idenfiticar los errores que se no puedan presentar y poder abarcar estos errores sin que nuestro sistema o programa falle por mal diseño de codigo.
