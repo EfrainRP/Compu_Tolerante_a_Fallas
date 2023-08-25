@@ -132,26 +132,28 @@ else:
 finally:
 # Este bloque se ejecutara siempre
 ```
-#Conclusion
+# Conclusion
+
 Esta investigacion me ayudo a como manejar errores que pudiera encontrar en la programacion asi como los que produzcan los mismos usuarios, por lo que debemos de siempre conocer los errores que se pudieran presentar, ademas de conocer el contexto para el cual manejaremos el error para identificar la tecnica o herramienta a utilizar para evitar que falle el sistema o programa.
 
-#Bibliografia
-📗 Uso del assert(). (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de (https://ellibrodepython.com/assert-python)
+# Bibliografia
 
-8. Errores y excepciones. (s/f). Python documentation. Recuperado el 25 de agosto de 2023, de (https://docs.python.org/es/3/tutorial/errors.html
-)
-12.2. Excepciones. (s/f). Uniwebsidad.com. Recuperado el 25 de agosto de 2023, de (https://uniwebsidad.com/libros/algoritmos-python/capitulo-12/excepciones)
+📗 Uso del assert(). (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de https://ellibrodepython.com/assert-python
 
-Assertions. (Afirmaciones) Un primer acercamiento. (s/f). SG Buzz. Recuperado el 25 de agosto de 2023, de (https://sg.com.mx/content/view/562)
+8. Errores y excepciones. (s/f). Python documentation. Recuperado el 25 de agosto de 2023, de https://docs.python.org/es/3/tutorial/errors.html
 
-Carbonell, L. (2023, abril 5). Trabajar con errores en Python de forma eficiente. atareao con Linux. (https://atareao.es/pyldora/captura-de-errores/)
+12.2. Excepciones. (s/f). Uniwebsidad.com. Recuperado el 25 de agosto de 2023, de https://uniwebsidad.com/libros/algoritmos-python/capitulo-12/excepciones
 
-Excepciones en python. (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de (https://ellibrodepython.com/excepciones-try-except-finally)
+Assertions. (Afirmaciones) Un primer acercamiento. (s/f). SG Buzz. Recuperado el 25 de agosto de 2023, de https://sg.com.mx/content/view/562
 
-Franciscomelov. (2022, febrero 4). Sentencias Try y Except de Python: Cómo manejar excepciones en Python. freecodecamp.org. (https://www.freecodecamp.org/espanol/news/sentencias-try-y-except-de-python-como-menejar-excepciones-en-python/)
+Carbonell, L. (2023, abril 5). Trabajar con errores en Python de forma eficiente. atareao con Linux. https://atareao.es/pyldora/captura-de-errores/
 
-La palabra clave assert de Java y un ejemplo. (2015, febrero 13). Blog Bitix. (https://picodotdev.github.io/blog-bitix/2015/02/la-palabra-clave-assert-de-java-y-un-ejemplo/)
+Excepciones en python. (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de https://ellibrodepython.com/excepciones-try-except-finally
 
-Manejo de excepciones — Fundamentos de Programación en Python. (s/f). Uva.es. Recuperado el 25 de agosto de 2023, de (https://www2.eii.uva.es/fund_inf/python/notebooks/07_Manejo_de_excepciones/Manejo_de_excepciones.html)
+Franciscomelov. (2022, febrero 4). Sentencias Try y Except de Python: Cómo manejar excepciones en Python. freecodecamp.org. https://www.freecodecamp.org/espanol/news/sentencias-try-y-except-de-python-como-menejar-excepciones-en-python/
 
-Tratamiento de errores. (s/f). Jtech.ua.es. Recuperado el 25 de agosto de 2023, de (http://www.jtech.ua.es/j2ee/publico/lja-2012-13/sesion03-apuntes.html)
+La palabra clave assert de Java y un ejemplo. (2015, febrero 13). Blog Bitix. https://picodotdev.github.io/blog-bitix/2015/02/la-palabra-clave-assert-de-java-y-un-ejemplo/
+
+Manejo de excepciones — Fundamentos de Programación en Python. (s/f). Uva.es. Recuperado el 25 de agosto de 2023, de https://www2.eii.uva.es/fund_inf/python/notebooks/07_Manejo_de_excepciones/Manejo_de_excepciones.html
+
+Tratamiento de errores. (s/f). Jtech.ua.es. Recuperado el 25 de agosto de 2023, de http://www.jtech.ua.es/j2ee/publico/lja-2012-13/sesion03-apuntes.html
