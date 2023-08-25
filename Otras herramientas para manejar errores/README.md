@@ -41,22 +41,25 @@ Los Assertions (afirmaciones) son aquellas booleanas colocadas en punto específ
 Este tipo de sentencias se utlizan como ayuda en las correciones de un programa. Como:
 
 - Precondicion: Colocada al inicio de una sección de código, determinando el conjunto de sentencias bajo las cuáles se espera que el código sea ejecutado.
-'''
+
+```java
 private void setRefreshInterval(int interval) {
         // Confirma la precondición en un método no público.
     assert interval > 0 && interval <= 1000/MAX_REFRESH_RATE : interval;
     ... // Define interval
 }
-'''
+```
+
 - Postcondicion: Colocada al final, describiendo la sentencia esperada al final de la ejecución.
-'''
+
+```java
 public BigInteger modInverse(BigInteger m) {
-if (m.signum <= 0)
-throw new ArithmeticException(“Negativos: “ + m);
-... // Se realizan los cálculos
-assert this.multiply(result).mod(m).equals(ONE) : this;
-return result;
+    if (m.signum <= 0)
+        throw new ArithmeticException(“Negativos: “ + m);
+        ... // Se realizan los cálculos
+    assert this.multiply(result).mod(m).equals(ONE) : this;
+    return result;
 }
-'''
+```
 
 Algunos lenguajes de programación modernos incluyen sentencias de tipo “assertions”, que son analizadas en tiempo de ejecución. Como Java:
