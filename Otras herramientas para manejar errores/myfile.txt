@@ -1,0 +1,6 @@
+Contenido de fichero:
+    Hola mundo.
+    1234568
+    Efrain
+        Robles
+            Pulido
