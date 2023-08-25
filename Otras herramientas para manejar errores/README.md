@@ -91,7 +91,7 @@ Nos pueden entrar dudas de cuando emplear un assert y cuando un if o una excepci
 
 ## Try Exception
 
-La sentencia try en python funciona de la siguiente manera:
+Las excepciones en Python son una herramienta muy potente que la gran mayoría de lenguajes de programación modernos tienen. Se trata de una ***forma de controlar el comportamiento de un programa cuando se produce un error***. Esto es muy importante ya que salvo que tratemos este error, **el programa se parará**, y esto es algo que en determinadas aplicaciones no es una opción válida. La sentencia try en python funciona de la siguiente manera:
 
 - Primero, se ejecuta la cláusula **try** (la(s) linea(s) entre las palabras reservadas try y la except).
 
@@ -134,15 +134,15 @@ finally:
 ```
 # Conclusion
 
-Esta investigacion me ayudo a como manejar errores que pudiera encontrar en la programacion asi como los que produzcan los mismos usuarios, por lo que debemos de siempre conocer los errores que se pudieran presentar, ademas de conocer el contexto para el cual manejaremos el error para identificar la tecnica o herramienta a utilizar para evitar que falle el sistema o programa.
+Esta investigacion me ayudo a como manejar errores que pudiera encontrar en la programacion asi como los que produzcan los mismos usuarios, por lo que debemos de siempre conocer los errores que se pudieran presentar, además de conocer el contexto para manejar de la mejor forma el error para identificar la tecnica o herramienta a utilizar para evitar que falle el sistema o programa. Ya que no siempre podremos probar el programa a pruba y error para identifiacr lo problemas que se presenten por lo que esta investigacion em ayugo a idenfiticar los errores que se no puedan presentar y poder abarcar estos errores sin que nuestro sistema o programa falle por mal diseño de codigo.
 
 # Bibliografia
 
-📗 Uso del assert(). (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de https://ellibrodepython.com/assert-python
+📗Uso del assert(). (s/f). El Libro De Python. Recuperado el 25 de agosto de 2023, de https://ellibrodepython.com/assert-python
 
-8. Errores y excepciones. (s/f). Python documentation. Recuperado el 25 de agosto de 2023, de https://docs.python.org/es/3/tutorial/errors.html
+8.Errores y excepciones. (s/f). Python documentation. Recuperado el 25 de agosto de 2023, de https://docs.python.org/es/3/tutorial/errors.html
 
-12.2. Excepciones. (s/f). Uniwebsidad.com. Recuperado el 25 de agosto de 2023, de https://uniwebsidad.com/libros/algoritmos-python/capitulo-12/excepciones
+12.2.Excepciones. (s/f). Uniwebsidad.com. Recuperado el 25 de agosto de 2023, de https://uniwebsidad.com/libros/algoritmos-python/capitulo-12/excepciones
 
 Assertions. (Afirmaciones) Un primer acercamiento. (s/f). SG Buzz. Recuperado el 25 de agosto de 2023, de https://sg.com.mx/content/view/562
 
