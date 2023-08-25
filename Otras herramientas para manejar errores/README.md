@@ -62,4 +62,57 @@ public BigInteger modInverse(BigInteger m) {
 }
 ```
 
-Algunos lenguajes de programación modernos incluyen sentencias de tipo “assertions”, que son analizadas en tiempo de ejecución. Como Java:
+- Class invariants: para validar el estado de una clase según está definido en su contrato, siempre se debe cumplir independientemente de las operaciones que se realicen.
+- Código no alcanzable en tiempo de ejecución: partes del programa que se espera que no sea alcanzable, como cláusulas else o default en sentencias switch.
+
+Y no deben usarse para:
+
+- No se deben usar para comprobar argumentos en métodos públicos: los asserts pueden habilitarse o deshabilitarse, comprobar los argumentos se considera parte de las responsabilidades del método y su especificación.
+
+- No se deben usar para realizar tareas: ya que los asserts pueden deshabilitarse las tareas dejarían de ejecutarse y de proporcionar la funcionalidad del programa.
+
+Nos pueden entrar dudas de cuando emplear un assert y cuando un if o una excepción. Las excepciones se encargan de hacer que el programa sea robusto controlando las situaciones inesperadas pero posibles, los assert se encargan de que el programa sea correcto. Los *assert* deberían ser usados para asegurar algo, mientras que las excepciones deberían usarse para comprobar algo que podría ocurrir. Los *assert* son una herramienta en tiempo de desarrollo, las excepciones además son una herramienta para la ejecución en producción.
+
+## Try Exception
+
+La sentencia try en PYTHON funciona de la siguiente manera: 
+
+- Primero, se ejecuta la cláusula try (la(s) linea(s) entre las palabras reservadas try y la except).
+
+- Si no ocurre ninguna excepción, la cláusula except se omite y la ejecución de la cláusula try finaliza.
+
+- Si ocurre una excepción durante la ejecución de la cláusula try, se omite el resto de la cláusula. Luego, si su tipo coincide con la excepción nombrada después de la palabra clave except, se ejecuta la cláusula except, y luego la ejecución continúa después del bloque try/except.
+
+- Si ocurre una excepción que no coincide con la indicada en la cláusula except se pasa a los try más externos; si no se encuentra un gestor, se genera una unhandled exception (excepción no gestionada) y la ejecución se interrumpe con un mensaje como el que se muestra arriba.
+
+Con la cláusula *except*, podemos especificar diferentes excepciones a atrapar, asi como tener múltiples excepciones como:
+
+```python
+try:
+        x = int(input("Please enter a number: "))
+        break
+    except (RuntimeError, TypeError, ValueError):
+        print("Oops!  That was no valid number.  Try again...")
+```
+
+Si no sabemos que excepción hay que saltar, podemos utiliza la clausula *Exception*, que controla cualquier tipo de excepcion.
+
+Ademas podemos utilizar el bloque de *else*, que va despues de *try* y *except*, para ejecutar si no ha ocurrido ninguna excepción.
+
+Además de los bloques de *try, except* y *else* se puede añadir el bloque *finally*. En donde se ejecutar **siempre**, sin importar si hubo una excepcion. Utilizado normalmente como accion de limpieza.
+
+```python
+try:
+# Codigo a ejecutar
+# Pero podria haber errores en este bloque
+    
+except <tipo de error>:
+# Haz esto para manejar la excepcion
+# El bloque except se ejecutara si el bloque try lanza un error
+    
+else:
+# Esto se ejecutara si el bloque try se ejecuta sin errores
+   
+finally:
+# Este bloque se ejecutara siempre
+```
