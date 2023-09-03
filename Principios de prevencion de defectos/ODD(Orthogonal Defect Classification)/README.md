@@ -79,9 +79,9 @@ En el contexto de la metodología, un defecto se refiere a _un cambio necesario 
 Al corregir un defecto, el programador le asigna un "tipo" (en el sistema de seguimiento de errores), que es trazado a una o varias fases del proceso de desarrollo (diseño, programación y pruebas). Añadir una nueva característica (defecto funcional) es distinto a cambiar un par de líneas de código para corregir el valor de una variable (defecto de asignación).
 _Al ser la clasificación un proceso manual_, se busca que el conjunto de tipos de defectos sean ortogonales (es decir que no se junten entre ellos) para minimizar los errores y evitar confusiones. Además, los tipos de defectos deben ser generales para que sean independientes del tipo de desarrollo, de las fases del mismo e incluso del producto.
 
-Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. . De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
+Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
 
-![Tabla 1](COMPUTACION_TOLERANTE_A_FALLAS\Principios de prevencion de defectos\ODD(Orthogonal Defect Classification)\Tabla1.PNG)
+![Tabla 1](assets/Tabla1.PNG)
 
 
 # Conclusion
