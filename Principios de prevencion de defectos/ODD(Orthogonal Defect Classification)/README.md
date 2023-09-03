@@ -16,7 +16,7 @@ SECCIÓN: **D06**    CALENDARIO: **2023B**
 
 Se trata de un esquema desarrollado por IBM para clasificar defectos con el fin de proveer retroalimentación sobre el progreso de un proyecto, a través del mismo. Su objetivo es obtener un paradigma para medir las relaciones causa-efecto de los defectos, donde se pudiera encontrar la causa raíz de un defecto. Al mismo tiempo se deseaba desarrollar una clasificación de defectos que fuera simple y que estuviera lo más libre posible de errores humanos.
 
-ODC es una técnica utilizada para categorizar los defectos encontrados en el proceso de desarrollo de software, que permite medir de manera cuantitativa y con recursos mínimos los aspectos que deben ser tomados en consideración de forma prioritaria durante la etapa de desarrollo, con el fin de tomar medidas correctivas que eviten la aparición de defectos similares en el futuro.
+ODC (Orthogonal Defect Classification) _es una técnica utilizada para categorizar los defectos encontrados en el proceso de desarrollo de software, que permite medir de manera cuantitativa y con recursos mínimos los aspectos que deben ser tomados en consideración de forma prioritaria durante la etapa de desarrollo, con el fin de tomar medidas correctivas que eviten la aparición de defectos similares en el futuro_.
 
 Su principal aplicación es para la mejora del desarrollo del software, ya que los defectos son clasificados en distintas clases que colectivamente apuntan al área del proceso de desarrollo en específico que requiere de atención.
 
@@ -81,7 +81,7 @@ _Al ser la clasificación un proceso manual_, se busca que el conjunto de tipos 
 
 Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. . De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
 
-![Tabla 1](Principios de prevencion de defectos\ODD(Orthogonal Defect Classification)\Tabla1.PNG)
+![Tabla 1](COMPUTACION_TOLERANTE_A_FALLAS\Principios de prevencion de defectos\ODD(Orthogonal Defect Classification)\Tabla1.PNG)
 
 
 # Conclusion
