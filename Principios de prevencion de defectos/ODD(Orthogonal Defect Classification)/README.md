@@ -81,7 +81,7 @@ _Al ser la clasificación un proceso manual_, se busca que el conjunto de tipos 
 
 Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
 
-![Tabla 1](assets/Tabla1.PNG)
+![Tabla 1](assets/images/Tabla1.png)
 
 
 # Conclusion
