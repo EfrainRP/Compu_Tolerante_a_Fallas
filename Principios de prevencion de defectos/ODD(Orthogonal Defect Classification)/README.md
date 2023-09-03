@@ -81,7 +81,7 @@ _Al ser la clasificación un proceso manual_, se busca que el conjunto de tipos 
 
 Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
 
-![Tabla 1](assets/images/Tabla1.png)
+![Tabla 1](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Tabla1.PNG)
 
 
 # Conclusion
