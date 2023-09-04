@@ -81,13 +81,13 @@ _Al ser la clasificación un proceso manual_, se busca que el conjunto de tipos 
 
 Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, como se muestra en la Tabla 1. De esta manera, la asociación indica donde se espera un pico en defectos de tipo funcional. Por tanto, la tabla de mapeo describe el perfil de defectos en cada una de las fases.
 
-![Tabla 1](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Tabla1.PNG)
+![Tabla 1](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Images/Tabla1.png)
 
 El objetivo de los tipos de defectos también es poder relacionar cada tipo con algunas de las fases del proceso de desarrollo. Se trata de determinar dónde fueron inyectados los defectos en el sistema. Se encontró que cada tipo de defecto tiende a ser inyectado en relativamente pocas áreas o fases de desarrollo.
 
 La asociación encontrada entre los tipos de defectos y el proceso de desarrollo se muestra en la siguiente tabla: 
 
-![Tabla 2]()
+![Tabla 2](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Images/Tabla2.PNG)
 
 # Conclusion
 
