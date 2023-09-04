@@ -89,9 +89,20 @@ La asociación encontrada entre los tipos de defectos y el proceso de desarrollo
 
 ![Tabla 2](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Images/Tabla2.PNG)
 
-# Conclusion
+Al final de cada fase de desarrollo, se generan gráficas que muestran el número de defectos de cada tipo encontrados en esa fase. Al comparar el número de ocurrencias de un tipo de defecto por fase, el cambio en la distribución da una retroalimentación sobre el estado del proceso de desarrollo.
 
+Dado que las distribuciones de los tipos de defectos cambian con el tiempo, proveen una forma de medir la madurez del producto. Cuando una desviación del proceso se identifica a través de una desviación de las curvas de distribución de defectos, el tipo de defecto encontrado apunta a la parte del proceso que necesita atención.
+
+La piedra angular de este proceso son los análisis causales. En éstos cada desarrollador aporta datos objetivos sobre cada defecto. Estos datos son registrados en una base de datos, y al final de cada fase, se realiza una junta para analizar los datos colectivamente para determinar sus causas.
+
+
+# Conclusion
+Gracias a esta norma de clasificación desarrollada, podemos clasificar y determinar que acciones se deberán de tomar para su debida corrección. Para lograrlo, fue necesario implementar categorías que nos ayudan a determinar principalmente qué errores son los que deberemos de arreglar, pero para eso es necesario su identificación en determinadas circunstancias. Y mediante estos valores se podrá realizar tanto graficas y acciones para determinar la priorización de los errores a reparar.
 
 
 # Bibliografia
+De código cuyo objetivo principal es detectar e identificar, I. de C. E. U. T. F. de R. (s/f). Clasificación Ortogonal de Defectos Atributo Valores. Www.uv.mx. Recuperado el 4 de septiembre de 2023, de https://www.uv.mx/personal/ermeneses/files/2017/08/Clasificacion-Ortogonal-de-Defectos.pdf
 
+De Ingenieria, F., Ana, I., Coronel, P. O., Christian, I., & Barquero, H. (s/f). UNIVERSIDAD DE CUENCA. Edu.ec. Recuperado el 4 de septiembre de 2023, de http://dspace.ucuenca.edu.ec/bitstream/123456789/26245/1/Tesis.pdf
+
+Página, G., Izcóatl, G., Romero, H., Técnico, R., & De, J. (s/f). Maestría en Ingeniería de Software CIMAT Reporte Técnico. Repositorioinstitucional.mx. Recuperado el 4 de septiembre de 2023, de https://cimat.repositorioinstitucional.mx/jspui/bitstream/1008/104/2/TE%20264.pdf
