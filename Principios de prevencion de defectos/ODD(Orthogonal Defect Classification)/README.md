@@ -83,6 +83,11 @@ Los tipos de defectos se asocian a una o más fases del proceso de desarrollo, c
 
 ![Tabla 1](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/ODD(Orthogonal%20Defect%20Classification)/Tabla1.PNG)
 
+El objetivo de los tipos de defectos también es poder relacionar cada tipo con algunas de las fases del proceso de desarrollo. Se trata de determinar dónde fueron inyectados los defectos en el sistema. Se encontró que cada tipo de defecto tiende a ser inyectado en relativamente pocas áreas o fases de desarrollo.
+
+La asociación encontrada entre los tipos de defectos y el proceso de desarrollo se muestra en la siguiente tabla: 
+
+![Tabla 2]()
 
 # Conclusion
 
