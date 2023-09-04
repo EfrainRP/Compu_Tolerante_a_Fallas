@@ -61,4 +61,14 @@ Al investigar los diversos métodos y prácticas para prevenir los futuros defec
 
 
 # Bibliografia
+Follow, M. (2020, septiembre 5). Defect prevention methods and techniques. GeeksforGeeks. https://www.geeksforgeeks.org/defect-prevention-methods-and-techniques/
 
+V., S., & Gopalakrishnan Nair, T. R. (s/f). Effective defect prevention approach in software process for achieving better quality levels. Arxiv.org. Recuperado el 4 de septiembre de 2023, de https://arxiv.org/pdf/1001.3552.pdf
+
+Walia, G. S., & Carver, J. C. (2009). A systematic literature review to identify and classify software requirement errors. Information and Software Technology, 51(7), 1087–1109. https://doi.org/10.1016/j.infsof.2009.01.004
+
+(S/f-a). Embedded.com. Recuperado el 4 de septiembre de 2023, de https://www.embedded.com/techniques-for-software-defect-prevention-and-identification/
+
+(S/f-b). Myservername.com. Recuperado el 4 de septiembre de 2023, de https://spa.myservername.com/software-testing-templates
+
+(S/f-c). Softwaretestinghelp.com. Recuperado el 4 de septiembre de 2023, de https://www.softwaretestinghelp.com/defect-prevention-methods/#Defect_Prevention_Methods_and_Techniques
