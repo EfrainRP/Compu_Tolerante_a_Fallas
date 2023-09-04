@@ -19,7 +19,6 @@ La prevención de defectos es fundamental para garantizar la calidad y fiabilida
 1. ***Revisión de código***: Los desarrolladores revisan el código de sus colegas en busca de errores, malas prácticas y oportunidades de mejora. Esto se puede hacer de manera formal a través de revisiones planificadas o de manera informal mediante pares de programadores trabajando juntos.
 
 1. ***Pruebas unitarias***: Las pruebas unitarias implican escribir pruebas automatizadas para cada unidad de código (generalmente una función o método) para asegurarse de que funcionen correctamente. La implementación de pruebas unitarias puede ayudar a detectar defectos temprano y garantizar que las modificaciones futuras no rompan el código existente.
-
 Se pueden utilizar los tutoriales para más o menos hacer una revisión, pero se relaciona principalmente es comparar el sistema con el prototipo, lo que le dará una mejor idea sobre la corrección y / o la apariencia del sistema.
 
 1. ***Análisis estático de código***: Herramientas de análisis estático, como linters y analizadores de código estático, escanean el código en busca de posibles problemas, como variables no utilizadas, declaraciones redundantes o prácticas de codificación inconsistentes.
@@ -43,7 +42,6 @@ Por lo que el primer nivel de revisión debe estar dentro del equipo, seguido de
 1. ***Automatización de pruebas***: Automatizar las pruebas funcionales y de rendimiento puede ayudar a identificar rápidamente defectos a medida que se desarrolla el software.
 
 1. ***Uso de estándares y directrices***: Seguir estándares de codificación y directrices específicas para el lenguaje o el marco que estás utilizando puede ayudar a mantener la consistencia y prevenir defectos.
-
 Al implementar uno y/o combinaciones de estos metodos y practicas, se pueen reducir significativamente la existencia de defectos y mejorar la calidad general del software. Por lo cual se puede implementar diferentes analisis para la prevención de defectos, como:
 
 * ***Análisis de Pareto***: Siendo una técnica formal y simple que ayuda a priorizar el orden de resolución del problema para lograr el máximo impacto. Por lo tanto, los problemas una vez identificados se priorizan de acuerdo con la frecuencia y se realiza un análisis estadístico detallado para encontrar qué 20% de las razones atribuyen al 80% de los problemas. Simplemente centrándose en esas razones del 20% y eliminándolas, los resultados están garantizados mientras se optimiza la extensión del trabajo involucrado.
