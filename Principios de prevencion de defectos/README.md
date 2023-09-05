@@ -85,3 +85,5 @@ Walia, G. S., & Carver, J. C. (2009). A systematic literature review to identify
 (S/f-b). Myservername.com. Recuperado el 4 de septiembre de 2023, de https://spa.myservername.com/software-testing-templates
 
 (S/f-c). Softwaretestinghelp.com. Recuperado el 4 de septiembre de 2023, de https://www.softwaretestinghelp.com/defect-prevention-methods/#Defect_Prevention_Methods_and_Techniques
+
+Sarmah, N., & Kakoty, S. (s/f). BUG TRACKING SYSTEM (BTS). Irjet.net. Recuperado el 5 de septiembre de 2023, de https://www.irjet.net/archives/V4/i9/IRJET-V4I9272.pdf
