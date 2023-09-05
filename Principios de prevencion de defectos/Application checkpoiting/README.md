@@ -2,6 +2,8 @@
 
 Este programa permite al usuario ingresar datos y los respalda automáticamente cada cierto intervalo de tiempo. Mientras tanto, otro hilo se encarga de realizar el respaldo periódico en segundo plano. 
 
+![Programa](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/Application%20checkpoiting/example_pickle.py)
+
 En este programa tenmos como bibliotecas:
 - Pickle para la serializacion de datos
 - Time para controlar el tiempo
