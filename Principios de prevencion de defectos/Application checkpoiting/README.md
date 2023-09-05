@@ -53,6 +53,6 @@ En el bucle principal, el programa solicita al usuario ingresar datos (nombre, c
 El programa pregunta al usuario si desea introducir más datos a través de la bandera flag. Si la respuesta es 0 (no), el bucle principal termina y el programa se cierra.
 
 ## RunTime
-![RunTime 1](Principios de prevencion de defectos\Application checkpoiting\Images\RunTime1.PNG)
+![RunTime 1](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/Application%20checkpoiting/Images/RunTime1.PNG)
 
-![RunTime 2](Principios de prevencion de defectos\Application checkpoiting\Images\RunTime2.PNG)
+![RunTime 2](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/Application%20checkpoiting/Images/RunTime2.PNG)
