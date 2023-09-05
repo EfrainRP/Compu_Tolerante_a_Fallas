@@ -35,7 +35,7 @@ def restaurar_estado_periodicamente(archivo_estado, intervalo, info):
 
 if __name__ == "__main__":
     archivo_estado = "Principios de prevencion de defectos\Application checkpoiting\estado.pkl"
-    intervalo_segundos = 5  # Intervalo de tiempo en segundos para restaurar el estado
+    intervalo_segundos = 10  # Intervalo de tiempo en segundos para restaurar el estado
     flag = 1   # Bandera para seguir almacenando x cantidad de elementos en el diccionario
 
     info = cargar_estado(archivo_estado) # Cargamos la informacion que tenemos respaldada
