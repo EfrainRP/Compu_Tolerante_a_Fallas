@@ -56,6 +56,17 @@ El problema se escribe primero en el lado más a la derecha y en la línea horiz
 
 ![Análisis de causa y efecto](https://myservername.com/img/bug-defect-tracking/07/defect-prevention-methods-3.jpg)
 
+* ***ODC (Orthogonal Defect Classification)*** es una técnica utilizada para categorizar los defectos encontrados en el proceso de desarrollo de software, que permite medir de manera cuantitativa y con recursos mínimos los aspectos que deben ser tomados en consideración de forma prioritaria durante la etapa de desarrollo, con el fin de tomar medidas correctivas que eviten la aparición de defectos similares en el futuro.
+Su principal aplicación es para la mejora del desarrollo del software, ya que los defectos son clasificados en distintas clases que colectivamente apuntan al área del proceso de desarrollo en específico que requiere de atención.
+Esta clasificación debe cumplir con los siguientes requerimientos:
+- Ortogonalidad, es decir, sin superposición de las clases, esto es, que un defecto solo puede estar bajo una única clase
+- Consistencia a través de las fases
+- Uniformidad a través de los productos
+
+* ***BTS (BUG TRACKING SYSTEM)*** es un sistema que se utiliza para resolver cualquier tipo de errores en cualquier software. Es sobre todo útil para cualquier software. Un sistema de seguimiento de errores nos ayuda a realizar un seguimiento de los errores. El sistema de seguimiento de errores garantiza
+el usuario podrá rastrear los detalles del error, así como el estado de depuración.
+El sistema de seguimiento de errores mantiene los diferentes usuarios interfaces por separado, es decir, proporciona entornos separados para gerente de proyectos, desarrollador y probador. Los errores serán asignado a una persona junto con una identificación de error, captura de pantalla, descripción, nombre del proyecto, etc. El error se puede enviar al tester con un archivo adjunto para obtener un informe detallado del error. El administrador puede mantener usuarios, proyectos, organizaciones y errores.
+
 # Conclusión
 Al investigar los diversos métodos y prácticas para prevenir los futuros defectos, me ha dado cuenta que pueden ser muy efectivos si los aplicamos en nuestro trabajo diariamente, ya que nos permitirá tener una mejora de calidad de proyecto significativo. Permitiéndonos tener diversos enfoques, evaluación constante y entre otros beneficios. Puesto que estas técnicas y métodos deberían ser una práctica cultural y de gestión para cada uno de los desarrolladores para reducir costos y entregar productos más confiables y satisfactorios para los usuarios.
 
