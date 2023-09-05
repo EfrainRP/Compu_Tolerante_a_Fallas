@@ -49,12 +49,12 @@ if __name__ == "__main__":
         # Solicitamos al usuario que ingrese los datos del registro
         # Vamos "guardando" los datos constantemente para que se guarden automaticamente por el otro hilo
         nombre = input("Ingrese el nombre: ")
-        info[nombre] = ['','']
+        info[nombre] = ['',''] #Se va insertando la llave para que se guarde en el respaldo
+    
         carrera = input("Ingrese la carrera: ")  
-        info[nombre] = [carrera,'']
+        info[nombre] = [carrera,''] #Se va insertando la llave para que se guarde en el respaldo
+        
         semestre = input("Ingrese el semestre: ")
-
-        # Actualizamos el archivo respaldo con los nuevos datos
-        info[nombre] = [carrera,semestre]
+        info[nombre] = [carrera,semestre] # Actualizamos todo el dato al archivo respaldo 
 
         flag = int(input("Deseas introducir mas datos?\n    0)No   1)Si\n"))
