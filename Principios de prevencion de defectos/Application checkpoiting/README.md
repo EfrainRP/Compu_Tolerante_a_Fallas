@@ -5,9 +5,9 @@ Este programa permite al usuario ingresar datos y los respalda automáticamente 
 [Programa (example_pickle.py)](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/Application%20checkpoiting/example_pickle.py)
 
 En este programa tenmos como bibliotecas:
-- Pickle para la serializacion de datos
-- Time para controlar el tiempo
-- Threading para crear subprocesos.
+- ***Pickle*** para la serializacion de datos
+- ***Time*** para controlar el tiempo
+- ***Threading*** para crear subprocesos.
 
 Como funciones principales tenemos: 
 - Esta función se encarga de guardar (serializado) los datos de un diccionario de estado utilizando el pickle. Si el archivo no se encuentra, muestra un mensaje de error.
