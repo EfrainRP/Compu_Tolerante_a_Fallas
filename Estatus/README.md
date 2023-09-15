@@ -20,11 +20,11 @@ Este programa nos permitira cerrar alguna aplicacion ".exe", previamente selecci
 
 Una vez escrito el codigo, pasamos a descargar el Non-Sucking Service Manager y realizar sus respectivas instalaciones para luego ejecutar desde CMD, para abrir la siguiente ventana para configurar el servicio deseado.
 
-![Non-Sucking Service Manager](E:\Documents_PC\UDG_Materias\3.png)
+![Non-Sucking Service Manager](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/Images/config.PNG)
 
 Una vez configurado, pasamos a activarlo con el comando nssm.exe start proclocker desde el CMD. Por lo que podremos observar en el administrador de servicios y sus efectos de que ya esta funcionando.
 
-![Administrador de Servicio](E:\Documents_PC\UDG_Materias\tempsnip.png)
+![Administrador de Servicio](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/Images/service.png)
 
 En mi experiencia, al primer intento de la creacion del servicio funciono correctamente el codigo, pero una vez que queria crear otro o modificarlo dejo de funcionar, puedo suponer que puede sr debido a las ubicaciones de mis PATHs de mi equipo por lo que no funciono correctamente despues de la prube inicial.
 
@@ -132,3 +132,7 @@ if __name__ == '__main__':
 ```
 
 Para que se instale a travez del CMD,(comando: python servicio_monitor.py install) para despues activarlo,(python servicio_monitor.py start).
+
+## Bibliografia:
+(S/f). Tecnobillo.com. Recuperado el 15 de septiembre de 2023, de https://tecnobillo.com/sections/python-en-windows/servicios-windows-python/servicios-windows-python.html
+
