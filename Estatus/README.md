@@ -18,7 +18,7 @@ SECCIÓN: **D06**    CALENDARIO: **2023B**
 
 Este programa nos permitira cerrar alguna aplicacion ".exe", previamente seleccionada desde consola, lo cual tambien se le agrego la funcionalidad de que este mismo programa este siempre ejecutandose en nuestro sistema operativo. Lo cual estara cerrando las aplicaciones seleccionadas en el programa si el mismo usuario las abre manualmente.
 
-Una vez escrito el codigo, pasamos a descargar el Non-Sucking Service Manager y realizar sus respectivas instalaciones para luego ejecutar desde CMD, para abrir la siguiente ventana para configurar el servicio deseado.
+Una vez escrito el codigo, pasamos a descargar el Non-Sucking Service Manager y realizar sus respectivas instalaciones para luego ejecutar desde CMD, para abrir la siguiente ventana para configurar el servicio deseado. En este caso se buscara la aplicacion de WhatsApp para que se este cerrando cuando el usuario abra la aplicacion.
 
 ![Non-Sucking Service Manager](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/Images/config.PNG)
 
