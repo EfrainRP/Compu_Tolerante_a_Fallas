@@ -14,7 +14,7 @@ SECCIÓN: **D06**    CALENDARIO: **2023B**
 
 ![CUCEI Logo](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
 
-[Programa (exampleService.py)](Estatus\exampleService.py)
+[Programa (exampleService.py)](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/exampleService.py)
 
 Este programa nos permitira cerrar alguna aplicacion ".exe", previamente seleccionada desde consola, lo cual tambien se le agrego la funcionalidad de que este mismo programa este siempre ejecutandose en nuestro sistema operativo. Lo cual estara cerrando las aplicaciones seleccionadas en el programa si el mismo usuario las abre manualmente.
 
