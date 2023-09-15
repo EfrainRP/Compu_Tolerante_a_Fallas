@@ -22,7 +22,7 @@ Una vez escrito el codigo, pasamos a descargar el Non-Sucking Service Manager y 
 
 ![Non-Sucking Service Manager](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/Images/config.PNG)
 
-Una vez configurado, pasamos a activarlo con el comando nssm.exe start proclocker desde el CMD. Por lo que podremos observar en el administrador de servicios y sus efectos de que ya esta funcionando.
+Una vez configurado, pasamos a activarlo con el comando _nssm.exe start proclocker_ desde el CMD. Por lo que podremos observar en el administrador de servicios y sus efectos de que ya esta funcionando.
 
 ![Administrador de Servicio](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Estatus/Images/service.png)
 
