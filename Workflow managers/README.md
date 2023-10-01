@@ -3,7 +3,7 @@
 Este programa implementa la libreria/API para ejecutar el algoritmo de ordenamiento Quicksort en el que estaremos creando un arreglo de 100 valores aleatorios. Por lo que estaremos utilizando los decoradores de Prefect para incluir las ventajas que nos ofrece como el manejo de errores, el tiempo de duracion maximo, y entre otros.
 Permitiendonos registrar los datos manejados para poder observar el comportamiento de nuestro codigo mediante el ***Dashboard*** de la pagina de Prefect. 
 
-[Programa (example_prefect.py)](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Principios%20de%20prevencion%20de%20defectos/Application%20checkpoiting/example_pickle.py)
+[Programa (example_prefect.py)](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Workflow%20managers/example_prefect.py)
 
 En este programa tenmos como bibliotecas:
 - ***prefect*** para utilizar los **tasks y flows**
@@ -43,6 +43,6 @@ if __name__ == "__main__":
 ```
 
 ## Dashboard
-![Dashboard]()
+![Dashboard](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Workflow%20managers/Images/dash.png)
 
-![Flows]()
+![Flows](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Workflow%20managers/Images/flows.png)
