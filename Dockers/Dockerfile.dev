@@ -1,10 +1,17 @@
+#Dockerfile.dev, nos permitira construir y correr una imagen a nuestra necesidades para el desarrollo mismo del programa
+# Utlizara la imagen base de NodeJs version 18
 FROM node:18
 
+#Se ejecutara el comando para que en nuestro NodeJs se ejecute y hagamos cambios se actualize el mismo codigo en ejecucion
 RUN npm i -g nodemon
+# Creara la carpeta para guardar el codigo fuente EN EL CONTENEDOR que se esta creando
 RUN mkdir -p /home/app
 
+# WORKDIR permite que Dockerfile entienda que estaremos trabajando en la misma carpeta del CONTENEDOR
 WORKDIR /home/app
 
+#Expone el puerto para que otros CONTENEDORES y/o sistema anfitrion puedan comunicarse/accedan a ESTE CONTENEDOR
 EXPOSE 3000
 
+#Comando a ejecutar para que la aplicacion empiece su ejecucion, "comando" + "argumentos"
 CMD ["nodemon", "index.js"]
