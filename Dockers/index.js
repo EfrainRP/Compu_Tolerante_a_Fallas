@@ -1,6 +1,6 @@
 //Importa los modulos dependencias necesarios para este codigo, sitio web simple
-import express from 'express' //Dependencia de NodeJs
 import mongoose from 'mongoose' //Dependencia para MongoDB
+import express from 'express' //Dependencia de NodeJs
 
 const Animal = mongoose.model('Animal', new mongoose.Schema({ //Crea un modelo de una base de datos ANIMAL en MongoDB
   tipo: String,

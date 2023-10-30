@@ -1,4 +1,4 @@
-#Docker-compose-dev.yml permitira ejecutar el dockerfile.dev para construir las imagenes necesarias, la red y sus contenedores para un proyecto en especifico
+#Docker-compose-dev.yml permitira ejecutar el dockerfile.dev para construir los CONTENEDORES necesarios, la red y sus contenedores para un proyecto en especifico
 #Asi como configurar los puertos, nombres de los contenedores, variables de entorno y como su red 
 version: "3.9"
 services: #Se especifica los CONTENEDORES a utilizar 

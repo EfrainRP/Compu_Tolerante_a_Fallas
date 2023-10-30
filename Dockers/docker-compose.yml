@@ -1,4 +1,4 @@
-#Docker-compose.yml permitira construir las imagenes necesarias, la red y sus contenedores para un proyecto en especifico
+#Docker-compose.yml permitira construir los CONTENEDORES necesarios, la red y sus contenedores para un proyecto en especifico
 #Asi como configurar los puertos, nombres de los contenedores, variables de entorno y como su red 
 version: "3.9"
 services: #Se especifica los CONTENEDORES a utilizar 
@@ -17,7 +17,6 @@ services: #Se especifica los CONTENEDORES a utilizar
       - MONGO_INITDB_ROOT_PASSWORD=password
     volumes:  #Se le indica al CONTENEDOR de MONGODB cual volumes utilizara para este contenedor
       - mongo-data:/data/db #Se indica la ruta dentro del CONTENEDOR en donde va ser montado los datos de la base de datos
-
 
 #Los volumes nos permiten almacenar los datos del CONTENEDOR generado para pasarlo al sistema anfitrion
 volumes:    #Este volumes se defina todos los volumes que usaran los CONTENEDORES
