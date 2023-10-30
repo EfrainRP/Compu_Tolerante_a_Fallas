@@ -8,10 +8,9 @@ RUN mkdir -p /home/app
 
 # Nos permite acceder a los archivos del sistema anfitrion(Windows) para pasarlo al CONTENDOR("Linux")
 COPY . /home/app
-COPY package*.json /home/app
 
-#Se ejecutara el comando para que en nuestro NodeJs se ejecute y hagamos cambios se actualize el mismo codigo en ejecucion
-#RUN npm install
+#Nos permite pasar los paquetes que necesitamos para esta aplicacion Web a nuestro lugar de trabajo del contenedor
+COPY package*.json /home/app  
 
 #Expone el puerto para que otros CONTENEDORES y/o sistema anfitrion puedan comunicarse/accedan a ESTE CONTENEDOR
 EXPOSE 3000
