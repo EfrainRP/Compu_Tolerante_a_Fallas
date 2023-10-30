@@ -46,3 +46,6 @@ Ademas se tiene otro tipo de docker-compose-dev y Dockerfile.dev que se puede de
 - `docker compose -f docker-compose-dev.yml down` por lo que eliminara los contenedores que se crearon con el anterior comando.
 ![docker compose -f docker-compose-dev.yml up](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Dockers/Images/compose-devUP.PNG)
 ![docker compose -f docker-compose-dev.yml down](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Dockers/Images/compose-devDOWN.PNG)
+
+## Conclución
+Docker es una tecnologia muuy poderosa que nos ofrece muschas ventajas en terminos de protabilidad, eficiencia y escalabilidad de aplicaciones. Sin embargo, no es una solución universal y puede no ser la mejor opción en todos los casos. La decisión de usar Docker dependerá de las necesidades específicas de tu proyecto y de la infraestructura en la que planeas implementarlo. Es importante comprender las ventajas y desventajas de Docker y evaluar si se adapta a tus requisitos antes de adoptarlo en tu entorno de desarrollo o producción. En general, Docker ha demostrado ser una herramienta valiosa en el mundo del desarrollo de software y la administración de sistemas, pero su uso eficaz requiere un conocimiento sólido y buenas prácticas de seguridad.
