@@ -16,5 +16,5 @@ COPY package*.json /home/app
 EXPOSE 3000
 
 #Comando a ejecutar para que la aplicacion empiece su ejecucion, "comando" + "argumentos"
-CMD ["npm", "install"] 
+RUN npm install
 CMD ["node", "/home/app/index.js"]
