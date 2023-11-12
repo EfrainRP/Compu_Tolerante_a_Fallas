@@ -1,11 +1,13 @@
+# Se creara los contenedores a utilizar para este trabajo, teniendo el balanceador de carga y un contenedor por cada puerto de la pagina  
 version: '3'
 services:
-  nginx_load_balancer:
+  nginx_load_balancer: #Balanceador de cargas
     image: nginx
     volumes:
-      - './nginx/default.conf:/etc/nginx/nginx.conf'
+      - './nginx/default.conf:/etc/nginx/nginx.conf' #Accedera a los datos del nginx para coordinar las cargas
     ports:
       - '8080:80'
+  # Cada APPID nos permitira asignar los puertos para cada pagina
   app1:
     image: node-app
     environment: 
@@ -26,10 +28,3 @@ services:
     image: node-app
     environment: 
       - APPID=5555
-  mongodb:  #Se asigna nombre del contenedor, de la base de datos MongoDB
-    image: mongo  #Se especifica la imagen a construir, para la BD de MongoDB
-    ports:  #Se enlista los puertos a exponer/habilitar del contenedor, "PuertoAnfitrion:PuertoContenedor"
-      - "27017:27017"
-    environment:  #Se configura las variables de entorno necesarias al contenedor, de acuerdo a la imagen utilizada
-      - MONGO_INITDB_ROOT_USERNAME=efra
-      - MONGO_INITDB_ROOT_PASSWORD=password
