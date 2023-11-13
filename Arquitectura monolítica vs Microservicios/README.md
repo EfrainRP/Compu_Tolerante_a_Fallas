@@ -20,8 +20,11 @@ Una vez instalado la aplicacion (y verificado que funcione correctamente, inicia
 ## Microservicio
 En esta ocasion nuestro microservicio sea relizado en 4 diferentes contenedores para que con la ayuda del balanceador de carga de nginx pueda direccionarnos a cada contenedor, por lo que en nuestro navegador nos mostrara un mensaje con el puerto del contenedor en el que se direcciono. 
 
-Asi que nuestro balanceador de carga de Nginx distribuira el trafica/peticines de los clientes hacia los multiples contenedores.
+Asi que nuestro balanceador de carga de Nginx distribuira el trafica/peticiones de los clientes hacia los multiples contenedores.
 
-Si descargas estos archivos de esta carpeta, y ejecutas primero el comando `docker build -t node-app .` y despues el comando `docker compose up`, podras probar por ti mismo la pagina microservicio que se realizo.
+Si descargas estos archivos de esta carpeta, y ejecutas los comandos:
+1. `docker build -t node-app .` 
+1. `docker compose up`
+Podras probar por ti mismo la pagina microservicio que se realizo.
 
 ## Conclución
