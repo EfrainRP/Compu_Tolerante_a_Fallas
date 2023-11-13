@@ -56,7 +56,7 @@ Aunque los microservicios ofrecen ventajas significativas en términos de agilid
 Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de [**Docker**](https://docs.docker.com/desktop/install/windows-install/).
 Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), utilizado en la [practica anterior](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/tree/main/Dockers).
 
-En esta ocasion nuestro **microservicio** sea relizado en 4 diferentes contenedores para que con la ayuda del balanceador de carga de nginx pueda direccionarnos a cada contenedor, por lo que en nuestro navegador nos mostrara un mensaje con el puerto del contenedor en el que se direcciono. 
+En esta ocasion nuestro **microservicio** sea relizado en 4 diferentes contenedores para que con la ayuda del balanceador de carga de nginx pueda direccionarnos a cada contenedor, por lo que en nuestro navegador nos mostrara un mensaje con el puerto del contenedor en el que se direccionó. 
 
 Asi que nuestro *balanceador de carga de Nginx* distribuira el *trafica/peticiones de los clientes* hacia los multiples contenedores.
 
@@ -64,7 +64,7 @@ Si descargas estos archivos de esta carpeta, y ejecutas los comandos:
 1. `docker build -t node-app .` 
 1. `docker compose up`
 
-Podras probar por ti mismo la pagina microservicio que se realizo.
+Podras probar por ti mismo la pagina microservicio que se realizo. En donde podremos verificarlo al entrar a nuestro navegador con el url: ***localhost:8080***, en el que podremos observar la ID del puerto que se esta usando del contenedor definido en estos archivos, de '1111', '2222,'3333','4444','5555' de los contenedores creados, los cuales tienen una misma "pagina" en donde se podrá observar el ID del contendor web utilizado. 
 
 ## Conclución
 Los microservicios con Docker nos ofrecen una arquitectura flexible y escalable para el desarrollo y despliegue de aplicaciones. Con Docker, nos ofrece un entorno ligero y portátil que facilito la creación y ejecución de microservicios de manera consistente en diferentes entornos. Me tomo un poco de tiempo poder aplicar el balanceador de carga para el microservicio, ya que no conocia muy bien como usar la herramienta de Nginx.
