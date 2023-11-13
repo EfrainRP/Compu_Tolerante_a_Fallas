@@ -52,17 +52,18 @@ Los microservicios son una arquitectura de diseño de software en la que una apl
 
 Aunque los microservicios ofrecen ventajas significativas en términos de agilidad, escalabilidad y mantenimiento, también presentan desafíos, como la gestión de la comunicación entre servicios, la coordinación de transacciones distribuidas y la necesidad de una infraestructura adecuada para implementar y gestionar la arquitectura de microservicios. La adopción exitosa de microservicios requiere una cuidadosa consideración de estos desafíos.
 
-### Actividad
+### Actividad de Microservicios
 Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de [**Docker**](https://docs.docker.com/desktop/install/windows-install/).
 Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), utilizado en la [practica anterior](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/tree/main/Dockers).
 
-En esta ocasion nuestro microservicio sea relizado en 4 diferentes contenedores para que con la ayuda del balanceador de carga de nginx pueda direccionarnos a cada contenedor, por lo que en nuestro navegador nos mostrara un mensaje con el puerto del contenedor en el que se direcciono. 
+En esta ocasion nuestro **microservicio** sea relizado en 4 diferentes contenedores para que con la ayuda del balanceador de carga de nginx pueda direccionarnos a cada contenedor, por lo que en nuestro navegador nos mostrara un mensaje con el puerto del contenedor en el que se direcciono. 
 
-Asi que nuestro balanceador de carga de Nginx distribuira el trafica/peticiones de los clientes hacia los multiples contenedores.
+Asi que nuestro *balanceador de carga de Nginx* distribuira el *trafica/peticiones de los clientes* hacia los multiples contenedores.
 
 Si descargas estos archivos de esta carpeta, y ejecutas los comandos:
 1. `docker build -t node-app .` 
 1. `docker compose up`
+
 Podras probar por ti mismo la pagina microservicio que se realizo.
 
 ## Conclución
