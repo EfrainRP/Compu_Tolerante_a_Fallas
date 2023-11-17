@@ -39,7 +39,7 @@ Un ***LoadBalancer***  es un componente de red que distribuye el tráfico entran
 
 - Los controladores de Ingress en Kubernetes también pueden trabajar con Load Balancers para gestionar y distribuir el tráfico entrante hacia los servicios internos del clúster, proporcionando así escalabilidad, redundancia y alta disponibilidad.
 
-# Ejemplo
+### Ejemplo
 
 Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de **[Docker]**(https://docs.docker.com/desktop/install/windows-install/).
 Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), procederemos a activar la opcion de ***kubernetes*** dentro de Doker Desktop, por lo que empezara a actualizarse la aplicacion con esta nueva modalidad.
