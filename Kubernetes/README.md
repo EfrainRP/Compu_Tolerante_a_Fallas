@@ -39,10 +39,9 @@ Un ***LoadBalancer***  es un componente de red que distribuye el tráfico entran
 
 - Los controladores de Ingress en Kubernetes también pueden trabajar con Load Balancers para gestionar y distribuir el tráfico entrante hacia los servicios internos del clúster, proporcionando así escalabilidad, redundancia y alta disponibilidad.
 
-### Ejemplo
+## Ejemplo
 
-Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de **[Docker]**(https://docs.docker.com/desktop/install/windows-install/).
-Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), procederemos a activar la opcion de ***kubernetes*** dentro de Doker Desktop, por lo que empezara a actualizarse la aplicacion con esta nueva modalidad.
+Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de [**Docker**](https://docs.docker.com/desktop/install/windows-install/). Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), procederemos a activar la opcion de ***kubernetes*** dentro de Doker Desktop, por lo que empezara a actualizarse la aplicacion con esta nueva modalidad.
 
 Para empezar a utilizar lo basico de **kubernetes** deberemos conocer los comandos basicos:
 - `kubectl apply -f [file.yaml]`, nos permitira aplicar la implementación de la aplicacion ya configurada del archivo .yaml.
@@ -50,7 +49,7 @@ Para empezar a utilizar lo basico de **kubernetes** deberemos conocer los comand
 - `kubectl get services`, podremos observar que nuestrso servicios esten funcionando correctamente.
 - `kubectl get all`, podremos observar que todo nuestras implementaciones, servicios y replicas esten funcionando bien.
 - `kubectl delete -f [file.yaml]`, eliminrará los recursos del archivo yaml.
-
+[commands]()
 Este sitio Web nos permite escribir palabras para asi irlas guardando en una BD, pero se utilizo kubernetes para poder entender el comportamiento y ventajs que nos ofrece esta tecnologia. Ya que nos permite administrar los contenedores que vayamos creando, haciendolo escalable nuestro proyecto.
 
 Asi que para este ejemplo tenemos 5 replicas, locual significa que tenemos 5 "mini-sistemas" que tienen la misma pagina con el mismo funcionamiento. Lo cual, ***kubernetes*** nos ayuda a orquestar/administrar nuestros contenedores por si llega a haber problema con alguna conexión.
