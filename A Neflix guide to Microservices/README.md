@@ -19,7 +19,8 @@ La arquitectura de microservicios de Netflix se basa en dividir programas de sof
 Se hablo detalladamente sobre la arquitectura de Netflix, incluyendo la gestión de datos en AWS, servicios personalizados y especializados para lógica empresarial, herramientas de procesamiento de video y **CDN (Content Delivery Network)** de Open Connect para almacenamiento y transmisión de videos a gran escala.
 
 Se explico la definición y estructura de un ***microservicio***, siendo una aplicación independiente que proporciona una funcionalidad específica. Los microservices están diseñados para ser pequeños, autónomos y fáciles de mantener.
-![microservicioInfraesctructura]()
+![microservicioInfraesctructura](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/A%20Neflix%20guide%20to%20Microservices/Images/microservice.PNG)
+
 Lo cual consiste en tres componentes un microservicio:
 - ***Código***: El código fuente del microservice.
 - ***Datos***: Los datos que utiliza el microservice.
@@ -29,7 +30,8 @@ Los ***microservicios*** se basan en la arquitectura de sistemas distribuidos. L
 - Flexibilidad: Permiten fácilmente a los cambios en los requisitos del negocio.
 - Escalabilidad: Pueden adaptarse a las demandas cambiantes.
 - Resistencia: Son más resistentes a fallos que los sistemas monolíticos.
-![redMicroservicio]()
+![redMicroservicio](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/A%20Neflix%20guide%20to%20Microservices/Images/infra.PNG)
+
 Ademas, en el video se nos habla de que se pueden usar en los microservicio diferentes herramientas como:
 - ***API***, interfaz de programación de aplicaciones, es un conjunto de definiciones y protocolos que permiten a dos aplicaciones de software comunicarse entre sí. Las API permiten a los desarrolladores reutilizar el código y las funcionalidades de otras aplicaciones.
 - ***ZUL***, es una librería de código abierto desarrollada por Netflix que proporciona un punto de entrada único para un sistema de microservicios. Zuul se puede utilizar para realizar una serie de tareas, entre las que se incluyen:
