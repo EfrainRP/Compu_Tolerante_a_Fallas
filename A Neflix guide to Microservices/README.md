@@ -19,6 +19,7 @@ La arquitectura de microservicios de Netflix se basa en dividir programas de sof
 Se hablo detalladamente sobre la arquitectura de Netflix, incluyendo la gestión de datos en AWS, servicios personalizados y especializados para lógica empresarial, herramientas de procesamiento de video y **CDN (Content Delivery Network)** de Open Connect para almacenamiento y transmisión de videos a gran escala.
 
 Se explico la definición y estructura de un ***microservicio***, siendo una aplicación independiente que proporciona una funcionalidad específica. Los microservices están diseñados para ser pequeños, autónomos y fáciles de mantener.
+
 ![microservicioInfraesctructura](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/A%20Neflix%20guide%20to%20Microservices/Images/microservice.PNG)
 
 Lo cual consiste en tres componentes un microservicio:
@@ -30,25 +31,36 @@ Los ***microservicios*** se basan en la arquitectura de sistemas distribuidos. L
 - Flexibilidad: Permiten fácilmente a los cambios en los requisitos del negocio.
 - Escalabilidad: Pueden adaptarse a las demandas cambiantes.
 - Resistencia: Son más resistentes a fallos que los sistemas monolíticos.
+
 ![redMicroservicio](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/A%20Neflix%20guide%20to%20Microservices/Images/infra.PNG)
 
 Ademas, en el video se nos habla de que se pueden usar en los microservicio diferentes herramientas como:
-- ***API***, interfaz de programación de aplicaciones, es un conjunto de definiciones y protocolos que permiten a dos aplicaciones de software comunicarse entre sí. Las API permiten a los desarrolladores reutilizar el código y las funcionalidades de otras aplicaciones.
+- ***API***, interfaz de programación de aplicaciones, es un conjunto de definiciones y protocolos que permiten a dos aplicaciones de software comunicarse entre sí. Las API permiten a los desarrolladores reutilizar el código y las funcionalidades de otras aplicaciones. Las API se pueden clasificar en dos tipos principales:
+
+    * API públicas: Son API que están disponibles para cualquier desarrollador que quiera utilizarlas. Las API públicas suelen ser proporcionadas por empresas tecnológicas, como Google, Amazon o Facebook.
+    * API privadas: Son API que solo están disponibles para un grupo específico de desarrolladores, como los empleados de una empresa o los socios de un proyecto.
+
+    Las API nos ofrecen una serie de beneficios, entre los que se incluyen:
+
+    * Reutilización: Las API permiten a los desarrolladores reutilizar el código y las funcionalidades de otras aplicaciones. Esto ahorra tiempo y esfuerzo a los desarrolladores.
+    * Escalabilidad: Las API pueden utilizarse para escalar aplicaciones. Por ejemplo, una aplicación web puede utilizar una API para acceder a datos de un servidor externo. Si el servidor externo se escala, la aplicación web también se escalará.
+    * Interoperabilidad: Las API permiten que aplicaciones de diferentes proveedores se comuniquen entre sí. Esto facilita el desarrollo de aplicaciones que utilizan componentes de diferentes proveedores.
 - ***ZUL***, es una librería de código abierto desarrollada por Netflix que proporciona un punto de entrada único para un sistema de microservicios. Zuul se puede utilizar para realizar una serie de tareas, entre las que se incluyen:
     - Enrutamiento: Zuul puede utilizarse para enrutar las solicitudes a los microservicios correspondientes. Esto permite a los desarrolladores de microservicios concentrarse en la lógica de su negocio sin preocuparse por el enrutamiento de las solicitudes.
     - Filtrado: Zuul puede utilizarse para aplicar filtros a las solicitudes antes de que se envíen a los microservicios. Esto permite a los desarrolladores realizar tareas de seguridad, auditoría o registro.
     - Monitorización: Zuul puede utilizarse para recopilar información de las solicitudes que se envían a los microservicios. Esta información puede utilizarse para monitorizar el rendimiento del sistema y detectar problemas.
+    
     Zuul está diseñado para ser escalable y tolerante a fallos. Zuul puede utilizarse para manejar un gran número de solicitudes y puede seguir funcionando incluso si uno o más microservicios no están disponibles.
     Actualmente, los microservicios necesitan un cambio cultural en la forma en que las empresas desarrollan y operan softwares. Ya que las empresas deben de adoptar un enfoque descentralizado y colaborativo para el desarrollo de software.
 - ***NCCP***, Netflix Circuit Breaker Pattern, es un patrón de diseño de microservicios que ayuda a proteger los sistemas de microservicios de fallos. El patrón funciona mediante la creación de un circuito que puede abrirse y cerrarse. Cuando el circuito está abierto, las solicitudes no se envían a los microservicios afectados. El NCCP se puede utilizar para proteger los sistemas de microservicios de una serie de fallos, entre los que se incluyen:
-* Fallos de hardware
-* Fallos de software
-* Tráfico excesivo
+    * Fallos de hardware
+    * Fallos de software
+    * Tráfico excesivo
 
-El NCCP funciona de la siguiente manera:
-1. Cuando una solicitud llega a un microservicio, el microservicio comprueba si el circuito está abierto. Si el circuito está abierto, el microservicio no envía la solicitud al backend.
-1. Si el circuito está cerrado, el microservicio envía la solicitud al backend.
-1. Si el backend responde con un error, el microservicio cierra el circuito.
+    El NCCP funciona de la siguiente manera:
+    1. Cuando una solicitud llega a un microservicio, el microservicio comprueba si el circuito está abierto. Si el circuito está abierto, el microservicio no envía la solicitud al backend.
+    1. Si el circuito está cerrado, el microservicio envía la solicitud al backend.
+    1. Si el backend responde con un error, el microservicio cierra el circuito.
 
 
 ### Consejos especificos
