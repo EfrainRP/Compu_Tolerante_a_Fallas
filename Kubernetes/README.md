@@ -50,7 +50,7 @@ Para empezar a utilizar lo basico de **kubernetes** deberemos conocer los comand
 - `kubectl get all`, podremos observar que todo nuestras implementaciones, servicios y replicas esten funcionando bien.
 - `kubectl delete -f [file.yaml]`, eliminrará los recursos del archivo yaml.
 
-[commands](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Kubernetes/Images/commands.jpg)
+![commands](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Kubernetes/Images/commands.jpg)
 
 Este sitio Web nos permite escribir palabras para asi irlas guardando en una BD, pero se utilizo kubernetes para poder entender el comportamiento y ventajs que nos ofrece esta tecnologia. Ya que nos permite administrar los contenedores que vayamos creando, haciendolo escalable nuestro proyecto.
 
