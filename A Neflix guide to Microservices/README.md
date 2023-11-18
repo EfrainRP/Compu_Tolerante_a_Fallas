@@ -80,4 +80,38 @@ Para las operaciones, Evans recomienda:
 - Automatizar el despliegue y la gestión de los sistemas.
 - Utilizar herramientas y procesos que faciliten la supervisión y el diagnóstico de problemas.
 
+Asi que los ***micorservicios*** son un estilo de arquitectura de sistemas distribuidos en el que cada servicio es una aplicación autónoma que se comunica con otros servicios a través de un conjunto bien definido de API. Lo cual nos ofrece muchas ventajas al implementarlo, ya que nos da una respuesta a los desafíos de la arquitectura monolítica, arquitectura tradicional en el que todo el código de la aplicación se implementa como una sola unidad. 
+
+Asi que los microservicios tienen sus ventajas como:
+
+- ***Modularidad***: se pueden desarrollar, implementarse y escalarse de forma independiente. Esto hace que las aplicaciones de microservicios sean más fáciles de mantener y actualizar.
+- ***Escalabilidad***: permiten agregar más instancias de un servicio para manejar más tráfico. Esto hace que las aplicaciones de microservicios sean más escalables que las aplicaciones monolíticas.
+- ***Resiliencia***: son resistentes, por lo que pueden continuar funcionando incluso si algunos de los servicios no funcionan. 
+
+Pero también presentan algunos desafíos como:
+
+- ***Complejidad***: requieren que se administre múltiples servicios y sus dependencias.
+- ***Comunicación***: necesitan comunicarse entre sí, lo que puede resultar difícil de gestionar.
+- ***Coherencia de los datos***: deben mantener la coherencia de los datos en todos los servicios.
+
+En el video tambien mencionan algunas soluciones para que sea mas facil el manejo de los microservicios como:
+
+- ***Hystrix***: Hystrix es una biblioteca que se puede utilizar para manejar tiempos de espera y reintentos para microservicios.
+- ***FIT***: FIT es una herramienta que se puede utilizar para probar la disponibilidad y coherencia de los microservicios.
+- ***Bibliotecas de cliente***: las bibliotecas de cliente se pueden utilizar para simplificar el proceso de comunicación con microservicios.
+- ***Escalado automático***: el escalado automático se puede utilizar para escalar y reducir automáticamente los microservicios según la demanda.
+- ***Chaos Monkey***: Chaos Monkey es una herramienta que se puede utilizar para inyectar fallas aleatoriamente en microservicios para probar su resiliencia.
+
+Asi que los microservicios son un estilo de arquitectura poderoso que se puede utilizar para crear aplicaciones complejas, escalables y resistentes. Sin embargo, los microservicios también presentan algunos desafíos que es necesario abordar. Al comprender los desafíos y las soluciones de los microservicios, podrá tomar decisiones informadas sobre si utilizar o no este estilo de arquitectura para su próxima aplicación.
+
+Los ***microservicios*** son una abstracción, significando que no es necesario utilizar alguna tecnología en específico para implementar microservicios.
+Los ***microservicios*** son una arquitectura compleja y orgánica, se necesita mucha disciplina y caos para tener éxito.
+Los ***microservicios*** se centran primero en las soluciones y en segundo lugar en los equipos, por lo que se concentran en resolver el problema en cuestión y luego preocuparse por cómo organizar sus equipos para respaldar esa solución.
+
 ## Conclución
+Los ***microservicios*** son una arquitectura de sistemas distribuidos que nos ofrece ventajas, como la modularidad, la escalabilidad y la resiliencia. Sin embargo, también presentan algunos desafíos, como la complejidad, la comunicación y la consistencia de datos. Ya que para Netflix implementar esta arquitectura de microservicio les permitio escalar hasta donde esta hoy en día, ademas de ser tolerante a fallas mediante la palicacion de esta tecnología. Pero usar los microservicios puede ser complejo, no significa que todos sean iguales, ya que la ventaja de los microservicio es que lo podemos adecuar segun a nuestras necesidads e implementar diferentes tecnologias como el uso de bibliotecas como Hystrix, herramientas como FIT o client libraries. Además, es importante implementar prácticas de ingeniería de operaciones adecuadas, como el uso de autoescalado y Chaos Monkey.
+
+En el video se nos recomendo algunos consejos para la implementación de los microservicios como:
+* Empezar con un pequeño número de microservices. Ayudará a aprender los conceptos básicos de la arquitectura y a identificar los desafíos potenciales.
+* Utiliza una plataforma de orquestación de microservices. Permitirá gestionar el despliegue, la escalabilidad y la comunicación entre los microservices.
+* Implementa prácticas de ingeniería de operaciones adecuadas. Garantizará la disponibilidad y la resistencia de la aplicación.
