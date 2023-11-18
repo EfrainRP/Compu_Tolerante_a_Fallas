@@ -115,3 +115,16 @@ En el video se nos recomendo algunos consejos para la implementación de los mic
 * Empezar con un pequeño número de microservices. Ayudará a aprender los conceptos básicos de la arquitectura y a identificar los desafíos potenciales.
 * Utiliza una plataforma de orquestación de microservices. Permitirá gestionar el despliegue, la escalabilidad y la comunicación entre los microservices.
 * Implementa prácticas de ingeniería de operaciones adecuadas. Garantizará la disponibilidad y la resistencia de la aplicación.
+
+## Bibliografía
+Akbary, K. (s/f). Mastering Chaos: A Netflix Guide to Microservices. Recuperado el 18 de noviembre de 2023, de https://github.com/keyvanakbary/learning-notes/blob/master/talks/mastering-chaos-a-netflix-guide-to-microservices.md
+
+InfoQ [@infoq]. (2017, febrero 22). Mastering chaos - A Netflix guide to microservices. Youtube. https://www.youtube.com/watch?v=CZ3wIuvmHeM
+
+Mastering Chaos - A Netflix Guide to Microservices. (s/f). Slideshare.net. Recuperado el 18 de noviembre de 2023, de https://es.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
+
+¿Qué es una API? (s/f). Amazon.com. Recuperado el 18 de noviembre de 2023, de https://aws.amazon.com/es/what-is/api/#:~:text=API%20significa%20“interfaz%20de%20programación,de%20servicio%20entre%20dos%20aplicaciones.
+
+Understanding design of microservices architecture at Netflix. (2021, diciembre 15). TechAhead. https://www.techaheadcorp.com/blog/design-of-microservices-architecture-at-netflix/
+
+What is Zuul? (s/f). Recuperado el 18 de noviembre de 2023, de https://github.com/Netflix/zuul/wiki/Home
