@@ -18,7 +18,7 @@ Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, 
 
 Además para poder realizarlo deberas de conocer los comando básicos que nos ofrece ***Docker Desktop***, por lo que deberas de ver la inofrmación de [Docker de mi GitHub](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/tree/main/Docker).
 
-A continuación, desde terminal tendremos que acceder a la misma ubicacion del archivo ***yaml***, para despues utilizar el comando de `docker compose up` que nos generará los contenedores de las respectivas imagenes de ***Airflow***.
+A continuación, desde terminal tendremos que acceder a la misma ubicacion del archivo ***yaml***, para despues utilizar el comando de `docker compose up` que nos generará los contenedores de las respectivas imagenes de ***Airflow***, por lo que se nos generará varias carpetas y archivos necesarios para correr Airflow como se vera mas adelante.
 
 Despues podras acceder desde tu navegador, con el url: ***http://localhost:8080/home***. Veras un login de Airflow, como usuario y contraseña, introduciras **Airflow**.
 
@@ -40,7 +40,7 @@ Asi ahora podemos acceder a los datos que nos ha generado el programa, que nos r
 ![Data](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.3.PNG)
 ![Console](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.4.PNG)
 
-Finalmente podremos finalizar el docker con airflow con el comando `docker compose down` o si queires borrar todo seria `docker compose down --volumes --rmi all`
+Finalmente podremos finalizar el docker con airflow con el comando `docker compose down` o si quieres borrar todo seria `docker compose down --volumes --rmi all`
 
 ![Docker compose down](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/5.PNG)
 ![Docker compose down --all](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/6.PNG)
