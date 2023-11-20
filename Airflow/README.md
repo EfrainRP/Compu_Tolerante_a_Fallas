@@ -28,7 +28,7 @@ Luego podras aplicar tu programa en donde lo colocaremos en la carpeta de `/dags
 
 ![carpetas](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/8.PNG)
 
-Despues tendremos que activar el volume de docker en la interfaz, para asi ejecutar el codigo:
+Despues tendremos que activar el volume de docker en la interfaz, para asi ejecutar el codigo mediante un boton de **play** desde la misma interfaz de Airflow:
 
 ![Ui](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.12.png) 
 ![On](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/8.1.png)
