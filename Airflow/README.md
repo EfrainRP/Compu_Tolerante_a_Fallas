@@ -26,7 +26,20 @@ Despues podras acceder desde tu navegador, con el url: ***http://localhost:8080/
 
 Luego podras aplicar tu programa en donde lo colocaremos en la carpeta de `/dags`.
 
+![carpetas]()
 
+Despues tendremos que activar el volume de docker en la interfaz, para asi ejecutar el codigo:
 
+![Ui]() 
+![On]()
+
+Asi ahora podemos acceder a los datos que nos ha generado el programa, que nos registrara su funcionamiento, fallas y otras cosas.
+
+![Data]()
+![Console]()
+
+Finalmente podremos finalizar el docker con airflow con el comando `docker compose down` o si queires borrar todo seria `docker compose down --volumes --rmi all`
+
+![Docker compose down]()
 
 ## Conclución
