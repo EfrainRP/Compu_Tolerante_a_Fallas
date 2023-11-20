@@ -14,9 +14,9 @@ SECCIÓN: **D06**    CALENDARIO: **2023B**
 
 ![CUCEI Logo](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
 
-Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de **[Docker]**(https://docs.docker.com/desktop/install/windows-install/). Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), procederemos a probar esta herramienta desde terminal de ***Visual Studio***, cabe destacar que es necesario ubicarse en la direccion de la aplicacion Web para que funcione correctamente.
+Para poder realizar esta actividad fue necesario instalar ***Docker Desktop***, para Windows desde la pagina principal de [***Docker***](https://docs.docker.com/desktop/install/windows-install/). Una vez instalado la aplicacion (y verificado que funcione correctamente, iniciando el programa), procederemos a probar esta herramienta desde terminal de ***Visual Studio***, cabe destacar que es necesario ubicarse en la direccion de la aplicacion Web para que funcione correctamente.
 
-Además para poder realizarlo deberas de conocer los comando básicos que nos ofrece ***Docker Desktop***, por lo que deberas de ver la inofrmación de ***[Docker de mi GitHub]***(https://github.com/EfrainRP/Computacion_tolerante_a_fallas/tree/main/Docker).
+Además para poder realizarlo deberas de conocer los comando básicos que nos ofrece ***Docker Desktop***, por lo que deberas de ver la inofrmación de [Docker de mi GitHub](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/tree/main/Docker).
 
 A continuación, desde terminal tendremos que acceder a la misma ubicacion del archivo ***yaml***, para despues utilizar el comando de `docker compose up` que nos generará los contenedores de las respectivas imagenes de ***Airflow***.
 
@@ -36,6 +36,8 @@ Despues tendremos que activar el volume de docker en la interfaz, para asi ejecu
 Asi ahora podemos acceder a los datos que nos ha generado el programa, que nos registrara su funcionamiento, fallas y otras cosas.
 
 ![Data](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.1.PNG)
+![Data](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.2.PNG)
+![Data](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.3.PNG)
 ![Console](https://github.com/EfrainRP/Computacion_tolerante_a_fallas/blob/main/Airflow/Images/4.4.PNG)
 
 Finalmente podremos finalizar el docker con airflow con el comando `docker compose down` o si queires borrar todo seria `docker compose down --volumes --rmi all`
